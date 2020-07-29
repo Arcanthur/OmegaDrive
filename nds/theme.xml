@@ -1,0 +1,151 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<include>./../theme.xml</include>
+
+	<view name="system">
+		<text name="system_name_1" extra="true">
+			<text>Nintendo</text>
+			<fontPath>./../art/medium.otf</fontPath>
+			<alignment>left</alignment>
+			<color>a0a0a0</color>
+			<fontSize>0.025</fontSize>
+			<origin>0 0</origin>
+			<pos>0.12 0.308</pos>
+			<size>0 0</size>
+		</text>
+		<text name="system_name_2" extra="true">
+			<text>DS</text>
+			<fontPath>./../art/medium.otf</fontPath>
+			<alignment>left</alignment>
+			<color>cfcfcf</color>
+			<fontSize>0.08</fontSize>
+			<origin>0 0</origin>
+			<pos>0.12 0.325</pos>
+			<size>0 0</size>
+		</text>
+		<image name="dividers" extra="true">
+			<tile>false</tile>
+			<path>./../art/lines.png</path>
+			<color>eeeeeebb</color>
+			<size>0 0</size>
+			<pos>0.12 0.46</pos>
+		</image>
+
+		<text name="description" extra="true">
+			<text>The Nintendo DS is a 32-bit dual-screen handheld game console developed and released by Nintendo. The device went on sale in North America on November 21, 2004. The DS, short for "Developers' System" or "Dual Screen", introduced distinctive new features to handheld gaming.</text>
+			<fontPath>./../art/regular.ttf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.024</fontSize>
+			<color>a0a0a0</color>
+			<lineSpacing>1.18</lineSpacing>
+			<origin>0 0</origin>
+			<pos>0.12 0.5365</pos>
+			<size>0.32 0.20</size>	  
+		</text>
+	</view>
+	<view name="detailed, video">
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./../art/systembg/nds.png</path>
+		</image>
+		<textlist name="gamelist">
+			<selectorImagePath>./../art/list/selector-ds.png</selectorImagePath>
+			<selectorOffsetY>-0.01</selectorOffsetY>
+			<selectorHeight>0.05</selectorHeight>
+			<selectorColor>ffffff</selectorColor>
+			<fontPath>./../art/ds.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<lineSpacing>1.75</lineSpacing>
+			<primaryColor>ffffffaa</primaryColor>
+			<secondaryColor>ffff00</secondaryColor>
+			<selectedColor>000000da</selectedColor>
+			<size>0.2762 0.46</size>
+			<pos>0.2405 0.515</pos>
+			<horizontalMargin>0.01</horizontalMargin>
+			<origin>0.5 0.5</origin>
+		</textlist>
+		<text name="md_lbl_players">
+			<origin>0.5 0.5</origin>
+			<pos>0.554 0.525</pos>
+			<fontPath>./../art/ds.ttf</fontPath>
+			<fontSize>0.030</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.3 0.3</size>
+			<color>dfdfdf</color>
+			<zIndex>120</zIndex>
+		</text>
+		<text name="md_players">
+			<origin>0.5 0.5</origin>
+			<pos>0.72 0.525</pos>
+			<fontPath>./../art/ds.ttf</fontPath>
+			<fontSize>0.030</fontSize>
+			<size>0.3 0.3</size>
+			<color>dfdfdf</color>
+			<zIndex>120</zIndex>
+		</text>
+		<text name="md_lbl_releasedate">
+			<origin>0.5 0.5</origin>
+			<pos>0.554 0.581</pos>
+			<fontPath>./../art/ds.ttf</fontPath>
+			<fontSize>0.030</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.3 0.3</size>
+			<color>dfdfdf</color>
+			<zIndex>120</zIndex>         
+		</text>
+		<datetime name="md_releasedate">
+			<origin>0.5 0.5</origin>
+			<pos>0.682 0.581</pos>
+			<fontPath>./../art/ds.ttf</fontPath>
+			<fontSize>0.030</fontSize>
+			<size>0.3 0.3</size>
+			<color>dfdfdf</color>
+			<zIndex>120</zIndex>         
+		</datetime>
+		<text name="md_lbl_developer">
+			<origin>0.5 0.5</origin>
+			<pos>0.554 0.635</pos>
+			<fontPath>./../art/ds.ttf</fontPath>
+			<fontSize>0.030</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.3 0.3</size>
+			<color>dfdfdf</color>
+			<zIndex>120</zIndex>         
+		</text>
+		<text name="md_developer">
+			<origin>0.5 0.5</origin>
+			<pos>0.4545 0.672</pos>
+			<fontPath>./../art/ds.ttf</fontPath>
+			<fontSize>0.030</fontSize>
+			<size>0.1 0.6</size>
+			<color>dfdfdf</color>
+			<zIndex>120</zIndex>         
+		</text>
+		<image name="md_image">
+			<pos>0.495 0.384</pos>
+			<maxSize>0.137 0.25</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>	
+	</view>
+	<view  name="detailed">
+		<image name="md_thumbnail">
+			<origin>0.5 0.5</origin>
+			<pos>0.762 0.494</pos>
+			<maxSize>0.298 0.432</maxSize>
+		</image>	
+	</view>
+	<view name="video">   
+		<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<pos>0.762 0.494</pos>
+			<maxSize>0.298 0.432</maxSize>
+			<delay>1.5</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+		</video>	
+	</view>
+
+</theme>

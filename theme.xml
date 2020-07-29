@@ -1,0 +1,94 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<image name="indicator" extra="true">
+			<path>./art/background/${system.theme}.png</path>
+			<tile>false</tile>
+			<origin>0 0</origin>
+			<size>0 1</size>
+			<pos>0 0</pos>
+		</image>
+		<image name="help-image" extra="true">
+			<pos>0.028 .982</pos>
+			<size>0 0</size>
+			<path>./art/helpers/home.png</path>
+			<color>ffffff</color>	
+			<origin>0 1</origin>
+			<zIndex>100</zIndex>			
+		</image>
+		<image name="arrows" extra="true">
+			<tile>false</tile>
+			<path>./art/homearrows.png</path>
+			<size>0 1</size>
+			<pos>0 0</pos>
+		</image>
+		<carousel name="systemcarousel">
+			<type>horizontal</type>
+			<color>00000000</color>
+			<origin>1 1</origin>
+			<pos>1 1</pos>
+			<size>0.01 0.01</size>
+			<logoScale>1</logoScale>
+			<logoSize>0.01 0.01</logoSize>
+			<maxLogoCount>0</maxLogoCount>
+		</carousel>	
+		<text name="systemInfo">
+			<fontPath>./art/regular.otf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>1</forceUppercase>
+			<color>a0a0a0</color>
+			<origin>0 0</origin>
+			<pos>0.122 0.462</pos>
+			<fontSize>0.028</fontSize>
+		</text>
+	</view>
+
+	<view name="detailed, video">
+		<image name="console" extra="true">
+			<pos>0.5 0.064</pos>
+			<origin>0.5 0.3</origin>
+			<maxSize>0.36 0.14</maxSize>
+			<path>./art/logos/${system.theme}.png</path>
+			<zIndex>150</zIndex>
+		</image>
+
+		<!-- Hidden Elements -->
+
+		<text name="md_lbl_playcount, md_playcount, md_lbl_lastplayed, md_lbl_publisher, md_publsher">
+			<origin>1 1</origin>
+			<color>00000000</color>
+			<pos>0 0</pos>
+		</text>
+
+		<datetime name="md_lastplayed">
+			<origin>1 1</origin>
+			<color>00000000</color>
+			<pos>0 0</pos>
+		</datetime>
+
+		<text name="md_lbl_rating">
+			<origin>1 1</origin>
+			<color>00000000</color>
+			<pos>0 0</pos>
+		</text>
+		<rating name="md_rating">
+			<origin>1 1</origin>
+			<color>00000000</color>
+			<pos>0 0</pos>
+		</rating>
+		<text name="logoText">
+			<origin>1 1</origin>
+			<pos>0 0</pos>
+			<size>0.1 0.1</size>
+			<color>00000000</color>
+		</text>
+		<text name="md_description">
+			<origin>1 1</origin>
+			<pos>0 0</pos>
+			<size>0.1 0.1</size>
+			<color>00000000</color>
+		</text>
+	</view>
+
+</theme>

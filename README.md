@@ -1,8 +1,9 @@
------------------------------------
-OMEGADRIVE v 1.0
------------------------------------
-
-Created by Arcanthur
+=============OMEGADRIVE============
+=			  	  				  =
+=           Version 1.1           =
+=       Created by Arcanthur      =
+=				  				  =
+===================================
 
 -----------------------------------
 SPECIAL THANKS
@@ -16,13 +17,30 @@ https://forums.launchbox-app.com/files/file/2485-colorful-resources/
 To the RetroPie dev team for giving us such awesome software.
 
 -----------------------------------
+CHANGELOG
+-----------------------------------
+
+Systems Added:
+
+- Neo Geo Pocket
+- Neo Geo Pocket Color
+
+Auto collections:
+- All Games
+- Favorites
+- Last Played
+
+Updated:
+- Added better lcd "grid" effect to all handhelds on the homescreen backgrounds.
+
+-----------------------------------
 RELEASE NOTES
 -----------------------------------
 
 OmegaDrive has a unified home screen with a tabbed interface to help organize your systems.  Each system has a unique look, layout, and style.
 With hundreds of hours of work, this theme has been in development for nearly a year and it's finally ready for a first release.  
 This has been a passion project for me as I wanted to give back to the community to show my support for all the hard work 
-the RetroPie team and the emulation community in general has given us.  Version 1.0 includes support for the following systems:
+the RetroPie team and the Emulation community in general has given us.  Version 1.0 includes support for the following systems:
 
 - Amiga
 - Arcade
@@ -83,35 +101,6 @@ there is a theme.xml you will see the following code as an example:
 
 Under path you will see the background image.  Just open the art folder in the directly specified and you can
 change the image to your desired background / option of choice.
-
------------------------------------
-UPDATES
------------------------------------
-OmegaDrive 1.0 is only a base relesae and will cotinue to add support for more systems in the future, several are already planned including:
-
-AtariST
-Atari Jaguar
-Amstrad CPC
-Amstrad GX4000
-Game and Watch
-MS-DOS
-MSX
-MSX2
-NeoGeo CD
-NeoGeo Pocket / Color
-Panasonic 3DO
-Sega Saturn
-Sharp X6800
-Vectrex
-VirtualBoy
-Wonderswan
-ZX Spectrum
-
-Collections
-Favorites
-All Games
-Recently Played
-
 
 -----------------------------------
 BACKGROUND MUSIC

@@ -1,0 +1,95 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<include>./../theme.xml</include>
+
+	<view name="system">
+
+		<text name="system_name_1" extra="true">
+			<text>Nintendo</text>
+			<fontPath>./../art/medium.otf</fontPath>
+			<alignment>left</alignment>
+			<color>a0a0a0</color>
+			<fontSize>0.025</fontSize>
+			<origin>0 0</origin>
+			<pos>0.12 0.308</pos>
+			<size>0 0</size>
+		</text>
+		<text name="system_name_2" extra="true">
+			<text>VIRTUALBOY</text>
+			<fontPath>./../art/medium.otf</fontPath>
+			<alignment>left</alignment>
+			<color>cfcfcf</color>
+			<fontSize>0.08</fontSize>
+			<origin>0 0</origin>
+			<pos>0.12 0.325</pos>
+			<size>0 0</size>
+		</text>
+		<image name="dividers" extra="true">
+			<tile>false</tile>
+			<path>./../art/lines.png</path>
+			<color>eeeeeebb</color>
+			<size>0 0</size>
+			<pos>0.12 0.46</pos>
+		</image>
+
+		<text name="description" extra="true">
+			<text>The Virtual Boy is a 32-bit tabletop portable video game console created by Nintendo. Released in 1995, it was marketed as the first console capable of displaying stereoscopic "3D" graphics. The player places their head against the eyepiece to see a red monochrome display. Sales failed to meet targets, and Nintendo ceased distribution and game development in 1996, having released only 22 games for the system.</text>
+			<fontPath>./../art/regular.ttf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.024</fontSize>
+			<color>a0a0a0</color>
+			<lineSpacing>1.18</lineSpacing>
+			<origin>0 0</origin>
+			<pos>0.12 0.565</pos>
+			<size>0.32 0.20</size>	  
+		</text>
+
+	</view>
+	<view name="detailed, video">
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./../art/systembg/virtualboy.png</path>
+		</image>
+		<textlist name="gamelist">
+			<selectorOffsetY>-0.01</selectorOffsetY>
+			<selectorHeight>0.05</selectorHeight>
+			<selectorColor>ff000067</selectorColor>
+			<fontPath>./../art/pixel3.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<lineSpacing>1.65</lineSpacing>
+			<primaryColor>ff3f3faa</primaryColor>
+			<secondaryColor>ffff00</secondaryColor>
+			<selectedColor>000000</selectedColor>
+			<size>0.26 0.37</size>
+			<pos>0.305 0.503</pos>
+			<horizontalMargin>0.01</horizontalMargin>
+			<origin>0.5 0.5</origin>
+		</textlist>
+		<image name="overlay" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./../art/list/virtualboy-overlay.png</path>
+			<zIndex>200</zIndex>   
+		</image>
+	</view>
+	<view  name="detailed">
+		<image name="md_thumbnail">
+			<origin>0.5 0.5</origin>
+			<pos>0.7855 0.50</pos>
+			<maxSize>0.405 0.485</maxSize>
+		</image>		
+	</view>
+	<view name="video">   
+		<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<pos>0.7 0.482</pos>
+			<maxSize>0.34 0.435</maxSize>
+			<delay>1.5</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+		</video>	
+	</view>
+</theme>

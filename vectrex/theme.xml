@@ -1,0 +1,95 @@
+<theme>
+    <formatVersion>4</formatVersion>
+	
+	<include>./../theme.xml</include>
+	
+	<view name="system">
+	
+		<text name="system_name_1" extra="true">
+			<text>GCE</text>
+			<fontPath>./../art/medium.otf</fontPath>
+			<alignment>left</alignment>
+			<color>a0a0a0</color>
+			<fontSize>0.025</fontSize>
+			<origin>0 0</origin>
+			<pos>0.12 0.308</pos>
+			<size>0 0</size>
+		</text>
+		<text name="system_name_2" extra="true">
+			<text>VECTREX</text>
+			<fontPath>./../art/medium.otf</fontPath>
+			<alignment>left</alignment>
+			<color>cfcfcf</color>
+			<fontSize>0.08</fontSize>
+			<origin>0 0</origin>
+			<pos>0.12 0.325</pos>
+			<size>0 0</size>
+		</text>
+		<image name="dividers" extra="true">
+			<tile>false</tile>
+			<path>./../art/lines.png</path>
+			<color>eeeeeebb</color>
+			<size>0 0</size>
+			<pos>0.12 0.46</pos>
+		</image>
+
+		<text name="description" extra="true">
+			<text>The Vectrex is a unique vector display-based home video game console developed by Smith Engineering. It was first released in North America in November 1982 and then Europe and Japan in 1983. Originally manufactured by General Consumer Electronics, it was later licensed to Milton Bradley after they acquired the company.</text>
+			<fontPath>./../art/regular.ttf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.024</fontSize>
+			<color>a0a0a0</color>
+			<lineSpacing>1.18</lineSpacing>
+			<origin>0 0</origin>
+			<pos>0.12 0.55</pos>
+			<size>0.32 0.20</size>	  
+		</text>
+		
+	</view>		
+	<view name="detailed, video">
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./../art/systembg/vectrex.png</path>
+			 <zIndex>119</zIndex>
+		</image>
+		<textlist name="gamelist">
+			<selectorImagePath>./../art/list/selector-vectrex.png</selectorImagePath>
+			<selectorOffsetY>-0.006</selectorOffsetY>
+			<selectorHeight>0.058</selectorHeight>
+			<selectorColor>000012ac</selectorColor>
+			<fontPath>./../art/vectrex.ttf</fontPath>
+			<fontSize>0.028</fontSize>
+			<lineSpacing>1.75</lineSpacing>
+			<primaryColor>000022df</primaryColor>
+			<secondaryColor>00001166</secondaryColor>
+			<selectedColor>ffffff</selectedColor>
+			<size>0.28 0.545</size>
+			<pos>0.227 0.397</pos>
+			<horizontalMargin>0.01</horizontalMargin>
+			<origin>0.5 0.5</origin>
+			<zIndex>120</zIndex>
+		</textlist>
+	</view>
+	<view  name="detailed">
+		<image name="md_thumbnail">
+            <origin>0.5 0.5</origin>
+            <pos>0.7484 0.482</pos>
+            <maxSize>0.386 0.52</maxSize>
+			 <zIndex>120</zIndex>
+		</image>	
+	</view>
+	<view name="video">   
+        <video name="md_video">
+            <origin>0.5 0.5</origin>
+            <pos>0.72 0.482</pos>
+            <maxSize>0.46 0.70</maxSize>
+            <delay>1.5</delay>
+            <showSnapshotNoVideo>true</showSnapshotNoVideo>
+            <showSnapshotDelay>true</showSnapshotDelay>
+			<zIndex>20</zIndex>
+        </video>		
+	</view>
+
+</theme>

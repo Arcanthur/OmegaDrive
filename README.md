@@ -1,6 +1,6 @@
 =============OMEGADRIVE============
 =			  	  				  =
-=           Version 1.2           =
+=           Version 1.3           =
 =       Created by Arcanthur      =
 =				  				  =
 ===================================
@@ -15,6 +15,21 @@ To Viking on the Launchbox Forums for some of the wonderful system art.
 https://forums.launchbox-app.com/files/file/2485-colorful-resources/
 
 To the RetroPie dev team for giving us such awesome software.
+
+-----------------------------------
+CHANGELOG 1.3
+-----------------------------------
+
+Systems added:
+
+- Neo Geo CD
+- 3DO
+- X68000
+- Vectrex
+
+Fixed:
+
+- Description for Neo Geo AES was using the one for the MVS (corrected).
 
 -----------------------------------
 CHANGELOG 1.2

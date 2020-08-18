@@ -16,7 +16,7 @@
 			<size>0 0</size>
 		</text>
 		<text name="system_name_2" extra="true">
-			<text>Neo•Geo AES</text>
+			<text>Neo•Geo CD</text>
 			<fontPath>./../art/medium.otf</fontPath>
 			<alignment>left</alignment>
 			<color>cfcfcf</color>
@@ -34,7 +34,7 @@
 		</image>
 
 		<text name="description" extra="true">
-			<text>The Neo•Geo AES was originally launched as a rental console for video game stores in Japan (called Neo Geo Rental System), with its high price causing SNK not to release it for home use – this was later reversed due to high demand and it came into the market as a luxury console. The AES had the same raw specs as the MVS and had full compatibility, thus managing to bring a true arcade experience to home users.</text>
+			<text>The Neo•Geo CD was SNK's second home console, released as a cheaper alternative the the AES system.  The internal harware is the same, but the games run on much cheaper to produce CD-ROMs.  This allowed SNK to sell games at a more competative price point. There are only a handful of exclusive games on the platform, with the remaining being AES ports, although some ports included original redbook audio soundtracks.</text>
 			<fontPath>./../art/regular.ttf</fontPath>
 			<alignment>left</alignment>
 			<forceUppercase>0</forceUppercase>
@@ -51,7 +51,7 @@
 		<image name="background" extra="true">
 			<pos>0 0</pos>
 			<size>1 1</size>
-			<path>./../art/systembg/neogeo.png</path>
+			<path>./../art/systembg/neogeocd.png</path>
 		</image>
 		<textlist name="gamelist">
 			<selectorImagePath>./../art/list/selector.png</selectorImagePath>

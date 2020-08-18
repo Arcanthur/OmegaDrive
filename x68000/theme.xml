@@ -1,0 +1,154 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<include>./../theme.xml</include>
+
+	<view name="system">
+
+		<text name="system_name_1" extra="true">
+			<text>Sharp</text>
+			<fontPath>./../art/medium.otf</fontPath>
+			<alignment>left</alignment>
+			<color>a0a0a0</color>
+			<fontSize>0.025</fontSize>
+			<origin>0 0</origin>
+			<pos>0.12 0.308</pos>
+			<size>0 0</size>
+		</text>
+		<text name="system_name_2" extra="true">
+			<text>X68000</text>
+			<fontPath>./../art/medium.otf</fontPath>
+			<alignment>left</alignment>
+			<color>cfcfcf</color>
+			<fontSize>0.08</fontSize>
+			<origin>0 0</origin>
+			<pos>0.12 0.325</pos>
+			<size>0 0</size>
+		</text>
+		<image name="dividers" extra="true">
+			<tile>false</tile>
+			<path>./../art/lines.png</path>
+			<color>eeeeeebb</color>
+			<size>0 0</size>
+			<pos>0.12 0.46</pos>
+		</image>
+
+		<text name="description" extra="true">
+			<text>The X68000 is a series of 32-bit Japanese computers created by Sharp. It was the first home system to offer true arcade-quality graphics, also serving as the development machine for the Capcom CPS arcade system.</text>
+			<fontPath>./../art/regular.ttf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.024</fontSize>
+			<color>a0a0a0</color>
+			<lineSpacing>1.18</lineSpacing>
+			<origin>0 0</origin>
+			<pos>0.12 0.5225</pos>
+			<size>0.32 0.20</size>	  
+		</text>
+
+	</view>
+	<view name="detailed, video">
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./../art/systembg/x68000.png</path>
+		</image>
+		<textlist name="gamelist">
+			<selectorOffsetY>-0.004</selectorOffsetY>
+			<selectorHeight>0.04</selectorHeight>
+			<selectorColor>00aeae79</selectorColor>
+			<fontPath>./../art/ds.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<lineSpacing>1.4</lineSpacing>
+			<primaryColor>595959ff</primaryColor>
+			<secondaryColor>303030ff</secondaryColor>
+			<selectedColor>ffffff</selectedColor>
+			<size>0.30 0.235</size>
+			<pos>0.248 0.73</pos>
+			<horizontalMargin>0.01</horizontalMargin>
+			<origin>0.5 0.5</origin>
+		</textlist>
+		<text name="md_lbl_players">
+			<origin>0.5 0.5</origin>
+			<pos>0.58 0.655</pos>
+			<fontPath>./../art/ds.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.3 0.3</size>
+			<color>d0d0d0aa</color>
+			<zIndex>120</zIndex>
+		</text>
+		<text name="md_players">
+			<origin>0.5 0.5</origin>
+			<pos>0.78 0.655</pos>
+			<fontPath>./../art/ds.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<size>0.3 0.3</size>
+			<color>d0d0d0aa</color>
+			<zIndex>120</zIndex>
+		</text>
+		<text name="md_lbl_releasedate">
+			<origin>0.5 0.5</origin>
+			<pos>0.58 0.695</pos>
+			<fontPath>./../art/ds.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.3 0.3</size>
+			<color>d0d0d0aa</color>
+			<zIndex>120</zIndex>         
+		</text>
+		<datetime name="md_releasedate">
+			<origin>0.5 0.5</origin>
+			<pos>0.735 0.695</pos>
+			<fontPath>./../art/ds.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<size>0.3 0.3</size>
+			<color>d0d0d0aa</color>
+			<zIndex>120</zIndex>         
+		</datetime>
+		<text name="md_lbl_developer">
+			<origin>0.5 0.5</origin>
+			<pos>0.58 0.735</pos>
+			<fontPath>./../art/ds.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.3 0.3</size>
+			<color>d0d0d0aa</color>
+			<zIndex>120</zIndex>         
+		</text>
+		<text name="md_developer">
+			<origin>0.5 0.5</origin>
+			<pos>0.505 0.775</pos>
+			<fontPath>./../art/ds.ttf</fontPath>
+			<fontSize>0.032</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.15 0.03</size>
+			<color>d0d0d0aa</color>
+			<zIndex>120</zIndex>           
+		</text>
+		<image name="md_image">
+			<pos>0.214 0.3525</pos>
+			<maxSize>0.20 0.42</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>	
+	</view>
+	<view name="detailed">   
+		<image name="md_thumbnail">
+			<origin>0.5 0.5</origin>
+			<pos>0.5025 0.3525</pos>
+			<maxSize>0.34 0.42</maxSize>
+		</image>
+	</view>
+
+	<view name="video">   
+		<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<pos>0.5025 0.3525</pos>
+			<maxSize>0.34 0.42</maxSize>
+			<delay>1.5</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+		</video>		
+	</view>
+
+</theme>

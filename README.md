@@ -1,6 +1,6 @@
 =============OMEGADRIVE============
 =			  	  				  =
-=           Version 1.3           =
+=           Version 1.4           =
 =       Created by Arcanthur      =
 =				  				  =
 ===================================
@@ -15,6 +15,20 @@ To Viking on the Launchbox Forums for some of the wonderful system art.
 https://forums.launchbox-app.com/files/file/2485-colorful-resources/
 
 To the RetroPie dev team for giving us such awesome software.
+
+-----------------------------------
+CHANGELOG 1.4
+-----------------------------------
+
+Systems added:
+
+- Sega Saturn (Black and White variants)
+- Apple II
+- Amstrad CPC 464
+- Atari 800
+- Microsoft MSX
+- Microsoft MS-DOS
+
 
 -----------------------------------
 CHANGELOG 1.3

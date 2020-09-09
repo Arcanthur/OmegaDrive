@@ -1,0 +1,91 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<include>./../theme.xml</include>
+
+	<view name="system">
+
+		<text name="system_name_1" extra="true">
+			<text>Microsoft</text>
+			<fontPath>./../art/medium.otf</fontPath>
+			<alignment>left</alignment>
+			<color>a0a0a0</color>
+			<fontSize>0.025</fontSize>
+			<origin>0 0</origin>
+			<pos>0.12 0.308</pos>
+			<size>0 0</size>
+		</text>
+		<text name="system_name_2" extra="true">
+			<text>MS-DOS</text>
+			<fontPath>./../art/medium.otf</fontPath>
+			<alignment>left</alignment>
+			<color>cfcfcf</color>
+			<fontSize>0.08</fontSize>
+			<origin>0 0</origin>
+			<pos>0.12 0.325</pos>
+			<size>0 0</size>
+		</text>
+		<image name="dividers" extra="true">
+			<tile>false</tile>
+			<path>./../art/lines.png</path>
+			<color>eeeeeebb</color>
+			<size>0 0</size>
+			<pos>0.12 0.46</pos>
+		</image>
+
+		<text name="description" extra="true">
+			<text>MS-DOS is an operating system for x86-based personal computers developed by Microsoft.  Officially supported from 1981 to 1997, MS-DOS remains one of the largest library of games under one platform, as publishers released thousands of games from every genre on this text based operating system.</text>
+			<fontPath>./../art/regular.ttf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.024</fontSize>
+			<color>a0a0a0</color>
+			<lineSpacing>1.18</lineSpacing>
+			<origin>0 0</origin>
+			<pos>0.12 0.5375</pos>
+			<size>0.32 0.20</size>	  
+		</text>
+
+	</view>
+	<view name="detailed, video">
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./../art/systembg/pc.png</path>
+		</image>
+		<textlist name="gamelist">
+			<selectorOffsetY>0</selectorOffsetY>
+			<selectorHeight>0.04</selectorHeight>
+			<selectorColor>ffffff70</selectorColor>
+			<fontPath>./../art/dos.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<lineSpacing>1.2</lineSpacing>
+			<primaryColor>a0a0a0cf</primaryColor>
+			<secondaryColor>303030ff</secondaryColor>
+			<selectedColor>000000</selectedColor>
+			<size>0.235 0.64</size>
+			<pos>0.2125 0.49</pos>
+			<horizontalMargin>0.005</horizontalMargin>
+			<origin>0.5 0.5</origin>
+		</textlist>	
+	</view>
+	<view name="detailed">   
+		<image name="md_thumbnail">
+			<origin>0.5 0.5</origin>
+			<pos>0.5025 0.3525</pos>
+			<maxSize>0.34 0.42</maxSize>
+		</image>
+	</view>
+
+	<view name="video">   
+		<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<pos>0.503 0.335</pos>
+			<maxSize>0.34 0.42</maxSize>
+			<delay>0.7</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+		</video>		
+	</view>
+
+</theme>

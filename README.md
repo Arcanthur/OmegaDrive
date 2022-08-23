@@ -172,4 +172,4 @@ DONATIONS
 
 OmegaDrive is and always will be offered for free, but if you would like to say thanks, you may do so here:
 
-https://paypal.me/pools/c/8kA8RB42Ue
+https://www.buymeacoffee.com/arcanthurE
